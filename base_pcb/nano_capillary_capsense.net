@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 23 Apr 2011 05:48:10 PM PDT
+# EESchema Netlist Version 1.1 created  Fri 29 Apr 2011 07:28:04 PM PDT
 (
  ( /4DB350D6 SM0603 C1 10uF
   ( 1 /5V )
@@ -9,15 +9,15 @@
   ( 2 /GND )
  )
  ( /4DB35129 SM0603 C3 0.1uF
-  ( 1 N-000018 )
+  ( 1 N-000019 )
   ( 2 /GND )
  )
  ( /4DB35136 SM0603 C4 0.1uF
-  ( 1 N-000018 )
+  ( 1 N-000019 )
   ( 2 /GND )
  )
  ( /4DB35135 SM0603 C5 0.1uF
-  ( 1 N-000018 )
+  ( 1 N-000019 )
   ( 2 /GND )
  )
  ( /4DB350E8 SM0603 C6 10uF
@@ -29,72 +29,64 @@
   ( 2 /GND )
  )
  ( /4DB1FAF9 SM0805 D1 LED
-  ( 1 N-000025 )
+  ( 1 N-000026 )
   ( 2 /GND )
  )
  ( /4DB22201 SM0805 D2 LED
-  ( 1 N-000020 )
-  ( 2 /GND )
- )
- ( /4DB222AC SM0805 D3 LED
   ( 1 N-000021 )
   ( 2 /GND )
  )
- ( /4DB22349 $noname$ P1 CONN_2X2
-  ( 1 /5V )
-  ( 2 N-000016 )
-  ( 3 ? )
-  ( 4 N-000016 )
- )
- ( /4DB33AAF $noname$ P2 CONN_2
-  ( 1 /GND )
-  ( 2 N-000034 )
- )
- ( /4DB33AD2 $noname$ P3 CONN_2
-  ( 1 /GND )
-  ( 2 N-000001 )
- )
- ( /4DB1E67D $noname$ P4 CONN_2
-  ( 1 /VEXT )
+ ( /4DB222AC SM0805 D3 LED
+  ( 1 N-000022 )
   ( 2 /GND )
  )
- ( /4DB33B51 $noname$ P5 CONN_2
-  ( 1 /GND )
-  ( 2 N-000030 )
+ ( /4DB22349 PIN_ARRAY_2X2 P1 CONN_2X2
+  ( 1 /5V )
+  ( 2 N-000017 )
+  ( 3 ? )
+  ( 4 N-000017 )
  )
- ( /4DB33B5F $noname$ P6 CONN_2
+ ( /4DB33AAF PIN_ARRAY_2X1 P2 CONN_2
+  ( 1 /GND )
+  ( 2 N-000035 )
+ )
+ ( /4DB33AD2 PIN_ARRAY_2X1 P3 CONN_2
   ( 1 /GND )
   ( 2 N-000002 )
  )
- ( /4DB23FF4 $noname$ P7 CONN_5
+ ( /4DB1E67D DCJACK_2PIN P4 CONN_2
+  ( 1 /VEXT )
+  ( 2 /GND )
+ )
+ ( /4DB33B51 PIN_ARRAY_2X1 P5 CONN_2
+  ( 1 /GND )
+  ( 2 N-000031 )
+ )
+ ( /4DB33B5F PIN_ARRAY_2X1 P6 CONN_2
+  ( 1 /GND )
+  ( 2 N-000003 )
+ )
+ ( /4DB23FF4 PIN_ARRAY_5x1 P7 CONN_5
   ( 1 /A0 )
   ( 2 /A1 )
   ( 3 /A2 )
   ( 4 /A3 )
   ( 5 /GND )
  )
- ( /4DB2066A $noname$ P8 CONN_2X2
-  ( 1 N-000019 )
-  ( 2 N-000018 )
+ ( /4DB2066A PIN_ARRAY_2X2 P8 CONN_2X2
+  ( 1 N-000020 )
+  ( 2 N-000019 )
   ( 3 ? )
-  ( 4 N-000018 )
+  ( 4 N-000019 )
  )
- ( /4DB338C9 $noname$ P9 CONN_5
+ ( /4DB338C9 PIN_ARRAY_5x1 P9 CONN_5
   ( 1 /GND )
   ( 2 /CS )
   ( 3 /SCK )
   ( 4 /MISO )
   ( 5 /MOSI )
  )
- ( /4DB34843 $noname$ P10 CONN_3X2
-  ( 1 ? )
-  ( 2 /INT )
-  ( 3 ? )
-  ( 4 /GND )
-  ( 5 ? )
-  ( 6 ? )
- )
- ( /4DB34847 $noname$ P11 CONN_3X2
+ ( /4DBB6DDE HEADER_RT_3X2 P10 CONN_3X2
   ( 1 /VEXT )
   ( 2 /INT )
   ( 3 /HW_SCL )
@@ -103,23 +95,23 @@
   ( 6 ? )
  )
  ( /4DB22374 SM0603 R1 5K
-  ( 1 N-000016 )
+  ( 1 N-000017 )
   ( 2 /GND )
  )
  ( /4DB2220B SM0603 R2 220
-  ( 1 N-000006 )
-  ( 2 N-000020 )
+  ( 1 N-000007 )
+  ( 2 N-000021 )
  )
  ( /4DB1FB8B SM0603 R3 220
   ( 1 /VEXT )
-  ( 2 N-000025 )
+  ( 2 N-000026 )
  )
  ( /4DB222AD SM0603 R4 220
-  ( 1 N-000015 )
-  ( 2 N-000021 )
+  ( 1 N-000016 )
+  ( 2 N-000022 )
  )
  ( /4DB2068E SM1210 R5 68
-  ( 1 N-000018 )
+  ( 1 N-000019 )
   ( 2 /5V )
  )
  ( /4DB22D5F SM0603 R6 4.7k
@@ -146,28 +138,28 @@
   ( 1 /SW_SDA2 )
   ( 2 /GND )
  )
- ( /4DB23D8F SM0603 S1 CAP_PLATE_0
-  ( 1 N-000026 )
- )
- ( /4DB23D9E $noname$ S2 CAP_PLATE_1
-  ( 1 N-000011 )
- )
- ( /4DB23DD3 $noname$ S3 CAP_PLATE_2
+ ( /4DB23D8F CAP_PLATE S1 CAP_PLATE_0
   ( 1 N-000027 )
  )
- ( /4DB23E28 $noname$ S4 CAP_PLATE_3
-  ( 1 N-000010 )
+ ( /4DB23D9E CAP_PLATE S2 CAP_PLATE_1
+  ( 1 N-000012 )
+ )
+ ( /4DB23DD3 CAP_PLATE S3 CAP_PLATE_2
+  ( 1 N-000028 )
+ )
+ ( /4DB23E28 CAP_PLATE S4 CAP_PLATE_3
+  ( 1 N-000011 )
  )
  ( /4DB1E364 $noname$ U1 AD7746
   ( 1 /SW_SCL1 )
   ( 2 ? )
-  ( 3 N-000034 )
-  ( 4 N-000001 )
+  ( 3 N-000035 )
+  ( 4 N-000002 )
   ( 5 ? )
   ( 6 ? )
   ( 7 ? )
-  ( 8 N-000026 )
-  ( 9 N-000011 )
+  ( 8 N-000027 )
+  ( 9 N-000012 )
   ( 10 ? )
   ( 11 ? )
   ( 12 ? )
@@ -176,19 +168,19 @@
   ( 15 ? )
   ( 16 /SW_SDA1 )
  )
- ( /4DB1DF26 $noname$ U2 ARDUINO_NANO
+ ( /4DB1DF26 arduino_nano U2 ARDUINO_NANO
   ( 1 ? )
   ( 2 ? )
   ( 3 ? )
   ( 4 /GND )
-  ( 5 N-000016 )
+  ( 5 N-000017 )
   ( 6 /INT )
   ( 7 /SW_SCL1 )
   ( 8 /SW_SDA1 )
   ( 9 /SW_SCL2 )
   ( 10 /SW_SDA2 )
-  ( 11 N-000006 )
-  ( 12 N-000015 )
+  ( 11 N-000007 )
+  ( 12 N-000016 )
   ( 13 /CS )
   ( 14 /MOSI )
   ( 15 /MISO )
@@ -204,20 +196,20 @@
   ( 25 ? )
   ( 26 ? )
   ( 27 /5V )
-  ( 28 N-000019 )
+  ( 28 N-000020 )
   ( 29 /GND )
   ( 30 /VEXT )
  )
  ( /4DB1E361 $noname$ U3 AD7746
   ( 1 /SW_SCL2 )
   ( 2 ? )
-  ( 3 N-000030 )
-  ( 4 N-000002 )
+  ( 3 N-000031 )
+  ( 4 N-000003 )
   ( 5 ? )
   ( 6 ? )
   ( 7 ? )
-  ( 8 N-000027 )
-  ( 9 N-000010 )
+  ( 8 N-000028 )
+  ( 9 N-000011 )
   ( 10 ? )
   ( 11 ? )
   ( 12 ? )

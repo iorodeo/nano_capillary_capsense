@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  Fri 29 Apr 2011 07:27:39 PM PDT
+#
+$MODULE HEADER_RT_3X2
+Li HEADER_RT_3X2
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+$EndMODULE
+#
+$EndLIBDOC
