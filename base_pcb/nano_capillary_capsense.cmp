@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Tue 17 May 2011 06:39:49 PM PDT
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Wed 18 May 2011 02:02:53 PM PDT
 
 BeginCmp
 TimeStamp = /4DB350D6;
@@ -229,6 +229,62 @@ TimeStamp = /4DD2EE51;
 Reference = P23;
 ValeurCmp = CONN_3X2;
 IdModule  = HEADER_RT_3X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A79;
+Reference = P24;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A7C;
+Reference = P25;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A7D;
+Reference = P26;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A7F;
+Reference = P27;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A81;
+Reference = P28;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A83;
+Reference = P29;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A84;
+Reference = P30;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD40A86;
+Reference = P31;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_4_40_GND;
 EndCmp
 
 BeginCmp
