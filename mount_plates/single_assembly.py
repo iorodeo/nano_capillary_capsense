@@ -6,7 +6,11 @@ from top_pcb import TopPCB
 from back_plate import BackPlate
 from standoff import Standoff
 from fourforty import FourForty
+from thumbscrew import ThumbScrew
 import params
+
+MM2INCH = 1/25.4
+
 
 class SingleAssembly(object):
     
@@ -37,19 +41,27 @@ class SingleAssembly(object):
         spacer_x, spacer_y, spacer_z = self.params.spacer_pcb['size']
         self.spacer_list = []
         
+        print 'spacer x-positions'
+        print '-'*60
         for x_pos in self.base_pcb.spacer_x_pos:
+            print 5.5 + x_pos*MM2INCH
             z_pos = 0.5*spacer_z + 0.5*base_z
             spacer = Translate(spacer_temp, v=[x_pos,0,z_pos])
             self.spacer_list.append(spacer)
+        print 
 
         # Create top pcbs
         top_temp = TopPCB()
         top_x, top_y, top_z = self.params.top_pcb['size']
         self.top_list = []
+        print 'capacitence pads x-posistion' 
+        print '-'*60
         for x_pos in self.base_pcb.cap_x_pos:
+            print 5.5 + x_pos*MM2INCH
             z_pos = 0.5*top_z + 0.5*base_z + spacer_z
             top = Translate(top_temp, v=[x_pos,0,z_pos])
             self.top_list.append(top)
+        print
 
         # Create back plate
         self.back_plate = BackPlate()
@@ -69,17 +81,23 @@ class SingleAssembly(object):
             self.standoff_list.append(standoff)
 
         # Create screws
-        screw_temp = FourForty()
         self.screw_list = []
+        screw_temp = FourForty()
         z_pos = 0.5*base_z
+        print 'mount hole x,y-positions'
+        print '-'*60
         for x_pos, y_pos in self.base_pcb.mount_hole_xy:
+            print 5.5 + x_pos*MM2INCH, 2.625 - y_pos*MM2INCH
             screw = Translate(screw_temp, v=(x_pos, y_pos, z_pos))
             self.screw_list.append(screw)
+        print
 
-        z_pos = 0.5*base_z + spacer_z + top_z
-        for x_pos, y_pos, dummy in self.base_pcb.cap_holes:
-            screw = Translate(screw_temp, v=(x_pos,y_pos,z_pos))
-            self.screw_list.append(screw)
+        ##screw_temp = ThumbScrew()
+        #screw_temp = FourForty()
+        #z_pos = 0.5*base_z + spacer_z + top_z
+        #for x_pos, y_pos, dummy in self.base_pcb.cap_holes:
+        #    screw = Translate(screw_temp, v=(x_pos,y_pos,z_pos))
+        #    self.screw_list.append(screw)
             
 
     def get_parts(self,explode = None):
@@ -113,9 +131,9 @@ class SingleAssembly(object):
         parts.extend(spacer_list)
         parts.extend(capillary_list)
         parts.extend(top_list)
-        parts.append(back_plate)
-        parts.extend(standoff_list)
-        parts.extend(screw_list)
+        #parts.append(back_plate)
+        #parts.extend(standoff_list)
+        #parts.extend(screw_list)
 
         return parts
 

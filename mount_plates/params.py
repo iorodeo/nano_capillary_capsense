@@ -6,21 +6,22 @@ INCH2MM = 25.4
 
 capillary = {
         'length'   : 127.0,
-        'diameter' : 1.0, 
+        'diameter' : 1.05, 
         'color'    : (0.1,0.4,1.0,0.6),
         }
 
 base_pcb = {
-        'size'                 : (7*INCH2MM, 3.25*INCH2MM, 1.7),
+        'size'                 : (9*INCH2MM, 3.25*INCH2MM, 0.062*INCH2MM),
         'color'                : (0.1,0.9,0.1,1.0), 
         'mount_hole_diam'      : 0.116*INCH2MM,  
         'mount_hole_offset'    : 0.12*INCH2MM,
         'capillary_number'     : 4,
         'capillary_spacing'    : 1.4*INCH2MM,
         'capillary_pad_right'  : 0.25*INCH2MM,
+        'capillary_tolerance'  : 0.15,
         'sandwich_hole_num'    : 2, 
         'sandwich_hole_diam'   : 0.116*INCH2MM,
-        'sandwich_hole_offset' : 0.5*INCH2MM, 
+        'sandwich_hole_offset' : 0.75*INCH2MM, 
         }
 
 spacer_pcb = {
@@ -29,7 +30,7 @@ spacer_pcb = {
         }
 
 top_pcb = {
-        'size' : (2*spacer_pcb['size'][0]+capillary['diameter'],3.25*INCH2MM, 0.014*INCH2MM),
+        'size' : (2*spacer_pcb['size'][0]+capillary['diameter'],3.25*INCH2MM, 0.062*INCH2MM),
         'color': (1.0, 1.0, 0.0, 1.0),
         }
 
@@ -53,6 +54,27 @@ fourforty = {
         'head_diameter'  : 0.211*INCH2MM,
         'head_thickness' : 0.05*INCH2MM,
         }
+
+thumbscrew = {
+        'color'          : (0.6, 0.6, 0.6, 1.0), 
+        'shaft_diameter' : 0.1*INCH2MM,
+        'shaft_length'   : 0.3125*INCH2MM,
+        'head_diameter'  : 0.375*INCH2MM,
+        'head_thickness' : 0.3125*INCH2MM,
+        }
+
+top_magnet = {
+        'color'          : (0,0,0,1),
+        'diameter'       : (1.0/8.0)*INCH2MM,
+        'height'         : (1.0/32.0)*INCH2MM,
+        }
+
+bottom_magnet = {
+        'color'          : (0,0,0,1),
+        'diameter'       : (1.0/8.0)*INCH2MM,
+        'height'         : (1.0/16.0)*INCH2MM,
+        }
+
 
 multi_assembly = {
         'num'     : 5,

@@ -31,6 +31,7 @@ class BasePCB(object):
         cap_numb = self.params.base_pcb['capillary_number']
         cap_spac = self.params.base_pcb['capillary_spacing']
         cap_pad = self.params.base_pcb['capillary_pad_right']
+        cap_tol = self.params.base_pcb['capillary_tolerance']
         cap_diam = self.params.capillary['diameter']
         spacer_x, spacer_y, spacer_z = self.params.spacer_pcb['size']
 
@@ -49,8 +50,8 @@ class BasePCB(object):
             x_pos = 0.5*x - 0.5*cap_spac - i*cap_spac - cap_pad 
             self.cap_x_pos.append(x_pos)
 
-            x_pos_left = x_pos - 0.5*cap_diam - 0.5*spacer_x
-            x_pos_right = x_pos + 0.5*cap_diam + 0.5*spacer_x 
+            x_pos_left =  x_pos - 0.5*(cap_diam+cap_tol) - 0.5*spacer_x
+            x_pos_right = x_pos + 0.5*(cap_diam+cap_tol) + 0.5*spacer_x 
             self.spacer_x_pos.append(x_pos_left)
             self.spacer_x_pos.append(x_pos_right)
                     

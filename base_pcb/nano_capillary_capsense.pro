@@ -1,5 +1,5 @@
-update=Fri 29 Apr 2011 01:01:13 PM PDT
-last_client=cvpcb
+update=Tue 17 May 2011 03:06:37 PM PDT
+last_client=pcbnew
 [general]
 version=1
 RootSch=nano_capillary_capsense.sch
@@ -71,11 +71,16 @@ LibName30=contrib
 LibName31=valves
 [common]
 NetDir=
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=394
+PadDimV=27559
 ViaDiam=450
 ViaDril=250
 ViaAltD=250
@@ -83,7 +88,7 @@ MViaDia=200
 MViaDrl=80
 Isol=60
 Countlayer=2
-Lpiste=170
+Lpiste=100
 RouteTo=15
 RouteBo=0
 TypeVia=3
@@ -119,8 +124,3 @@ LibName8=display
 LibName9=valves
 LibName10=led
 LibName11=dip_sockets
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
