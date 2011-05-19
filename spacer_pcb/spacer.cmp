@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Wed 18 May 2011 08:57:12 PM PDT
+
+BeginCmp
+TimeStamp = /4DD44032;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4403D;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44480;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44481;
+Reference = P4;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4440F;
+Reference = P5;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44410;
+Reference = P6;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44485;
+Reference = P7;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44486;
+Reference = P8;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44419;
+Reference = P9;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4441A;
+Reference = P10;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4448A;
+Reference = P11;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4448B;
+Reference = P12;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4443F;
+Reference = P13;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44440;
+Reference = P14;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4448F;
+Reference = P15;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44490;
+Reference = P16;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4445E;
+Reference = P17;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD4445F;
+Reference = P18;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44463;
+Reference = P19;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44464;
+Reference = P20;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44468;
+Reference = P21;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD44469;
+Reference = P22;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492C1;
+Reference = P23;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492CA;
+Reference = P24;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492C7;
+Reference = P25;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492C8;
+Reference = P26;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492C4;
+Reference = P27;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492CF;
+Reference = P28;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492C5;
+Reference = P29;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492D1;
+Reference = P30;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492CB;
+Reference = P31;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492CD;
+Reference = P32;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DD492CE;
+Reference = P33;
+ValeurCmp = CONN_1;
+IdModule  = MOUNT_HOLE_GND;
+EndCmp
+
+EndListe
