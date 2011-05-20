@@ -19,9 +19,9 @@ base_pcb = {
         'capillary_spacing'    : 1.4*INCH2MM,
         'capillary_pad_right'  : 0.25*INCH2MM,
         'capillary_tolerance'  : 0.15,
-        'sandwich_hole_num'    : 2, 
+        'sandwich_hole_num'    : 1, 
         'sandwich_hole_diam'   : 0.116*INCH2MM,
-        'sandwich_hole_offset' : 0.75*INCH2MM, 
+        'sandwich_hole_offset' : 0.5*3.25*INCH2MM, 
         }
 
 spacer_pcb = {
@@ -30,7 +30,7 @@ spacer_pcb = {
         }
 
 top_pcb = {
-        'size' : (2*spacer_pcb['size'][0]+capillary['diameter'],3.25*INCH2MM, 0.062*INCH2MM),
+        'size' : (2*spacer_pcb['size'][0]+capillary['diameter']+base_pcb['capillary_tolerance'],3.25*INCH2MM, 0.062*INCH2MM),
         'color': (1.0, 1.0, 0.0, 1.0),
         }
 

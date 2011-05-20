@@ -101,7 +101,6 @@ class SingleAssembly(object):
             
 
     def get_parts(self,explode = None):
-        parts = [self.base_pcb]
         if explode is not None:
             # spacers
             v = 0,0,explode
@@ -128,6 +127,8 @@ class SingleAssembly(object):
             standoff_list = self.standoff_list
             screw_list = self.screw_list
 
+        parts = []
+        parts.append(self.base_pcb)
         parts.extend(spacer_list)
         parts.extend(capillary_list)
         parts.extend(top_list)

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Thu 19 May 2011 05:50:43 PM PDT
+#
+$CMP CONN_1
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_6
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library
