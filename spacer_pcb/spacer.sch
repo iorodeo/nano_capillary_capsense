@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 18 May 2011 09:08:05 PM PDT
+EESchema Schematic File Version 2  date Mon 23 May 2011 04:51:18 PM PDT
 LIBS:power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./spacer.cache
 EELAYER 24  0
 EELAYER END
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 5100 5900 0    60   ~ 0
-SPACERS
+CAPILLARY SENSOR SPACERS
 Connection ~ 5100 4050
 Wire Wire Line
 	5200 3800 5100 3800

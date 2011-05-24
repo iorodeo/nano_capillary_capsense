@@ -1,0 +1,65 @@
+EESchema (20090216-final)  >> Creation date: Mon 23 May 2011 12:17:49 PM PDT
+
+#Cmp ( order = Reference )
+| C1         10uF        
+| C2         0.1uF       
+| C3         0.1uF       
+| C4         0.1uF       
+| C5         0.1uF       
+| C6         10uF        
+| C7         0.1uF       
+| D1         LED         
+| D2         LED         
+| D3         LED         
+| P1         CONN_2X2    
+| P2         CONN_2      
+| P3         CONN_5      
+| P4         CONN_2X2    
+| P5         CONN_6      
+| P6         CONN_3X2    
+| P7         CONN_6      
+| P8         CONN_6      
+| P9         CONN_6      
+| P10        CONN_6      
+| P11        CONN_6      
+| P12        CONN_6      
+| P13        CONN_6      
+| P14        CONN_6      
+| P15        CONN_6      
+| P16        CONN_6      
+| P17        CONN_6      
+| P18        CONN_6      
+| P19        CONN_6      
+| P20        CONN_6      
+| P21        CONN_6      
+| P22        CONN_6      
+| P23        CONN_3X2    
+| P24        CONN_1      
+| P25        CONN_1      
+| P26        CONN_1      
+| P27        CONN_1      
+| P28        CONN_1      
+| P29        CONN_1      
+| P30        CONN_1      
+| P31        CONN_1      
+| R1         5K          
+| R2         220         
+| R3         220         
+| R4         220         
+| R5         68          
+| R6         4.7k        
+| R7         4.7k        
+| R8         4.7k        
+| R9         4.7k        
+| R10        4.7k        
+| R11        4.7k        
+| S1         CAP_PLATE_0 
+| S2         CAP_PLATE_1 
+| S3         CAP_PLATE_2 
+| S4         CAP_PLATE_3 
+| U1         AD7746      
+| U2         ARDUINO_NANO
+| U3         AD7746      
+#End Cmp
+
+#End List

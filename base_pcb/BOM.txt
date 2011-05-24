@@ -1,0 +1,51 @@
+========================
+Surface mount components
+========================
+
+
+Item                  Description                                    Package        Vendor
+---------------------------------------------------------------------------------------------------------------------
+C1, C6                tantalum capacitor, 10uF                       SM0603         Digikey  478-3263-6-ND (Digi-Reel)
+C2,C3,C4,C5,C7        ceramic capacitor, 10uF                        SM0603         Digikey  399-1095-6-ND (Digi-Reel)
+D1,D2,D3              LED, green                                     SM0803         Digikey  160-1179-6-ND (Digi-Reel)
+R1                    resistor, thick film, 1/10W, 5.1K Ohm          SM0603         Digikey  P5.1KGDKR-ND  (Digi-Reel)
+R2,R3,R4              resistor, thick film, 1/10W, 220 Ohm           SM0603         Digikey  P220GDKR-ND   (Digi-Reel)
+R5                    resistor, thick film, 1/2W,  68 Ohm            SM1210         Digikey  P68VDKR-ND    (Digi-Reel)
+R6,R7,R8,R9,R10,R11   resistor, thick film, 1/10W, 4.7K Ohm          SM0603         Digikey  P4.7KGDKR-ND  (Digi-Reel)
+U1, U3                AD7746, capacitance-to-digital converter       16-TSSOP       Digikey  AD7746ARUZ-ND (Tube)
+
+
+=======================
+Through hole components
+=======================
+
+
+Item                  Description                                      Package        Vendor
+---------------------------------------------------------------------------------------------------------------------
+P1,P4                 rect. header, male, 2x2, pitch 0.1"                 -           Digikey 929710E-10-01-ND 
+P2                    DC jack, male, 2 pos. 2.1mm                         -           Jameco  137673
+P3                    friction lock header, 5 pos., pitch 0.1"            -           Jameco  232291
+P5                    friction lock header, 6 pos., pitch 0.1"            -           Jameco  232303
+P6,P23                shrouded header 3x2, male, right angle, pitch 0.1"  -           Digikey 609-2846-ND    
+U2                    arduino nano, 3.0, DIP                              -           Jameco  2121148
+P7-P22                header, male, contact len. 0.5", pitch 0.1"         -           Digikey 609-3490-ND
+
+
+=====================
+Sierra proto assembly
+=====================
+C1, C6                tantalum capacitor, 10uF                       SM0603         Digikey  478-3263-6-ND (Digi-Reel)
+C2,C3,C4,C5,C7        ceramic capacitor, 10uF                        SM0603         Digikey  399-1095-6-ND (Digi-Reel)
+D1,D2,D3              LED, green                                     SM0803         Digikey  160-1179-6-ND (Digi-Reel)
+R1                    resistor, thick film, 1/10W, 5.1K Ohm          SM0603         Digikey  P5.1KGDKR-ND  (Digi-Reel)
+R2,R3,R4              resistor, thick film, 1/10W, 220 Ohm           SM0603         Digikey  P220GDKR-ND   (Digi-Reel)
+R5                    resistor, thick film, 1/2W,  68 Ohm            SM1210         Digikey  P68VDKR-ND    (Digi-Reel)
+R6,R7,R8,R9,R10,R11   resistor, thick film, 1/10W, 4.7K Ohm          SM0603         Digikey  P4.7KGDKR-ND  (Digi-Reel)
+U1, U3                AD7746, capacitance-to-digital converter       16-TSSOP       Digikey  AD7746ARUZ-ND (Tube)
+P1,P4                 rect. header, male, 2x2, pitch 0.1"                 -           Digikey 929710E-10-01-ND 
+P2                    DC jack, male, 2 pos. 2.1mm                         -           Jameco  137673
+P3                    friction lock header, 5 pos., pitch 0.1"            -           Jameco  232291
+P5                    friction lock header, 6 pos., pitch 0.1"            -           Jameco  232303
+P6,P23                shrouded header 3x2, male, right angle, pitch 0.1"  -           Digikey 609-2846-ND    
+
+

@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 20 May 2011 03:02:46 PM PDT
+PCBNEW-BOARD Version 1 date Fri 20 May 2011 03:26:39 PM PDT
 
 $GENERAL
 LayerCount 2
@@ -33,6 +33,7 @@ Layer[0] Copper signal
 Layer[15] Component signal
 TrackWidth 120
 TrackWidthHistory 120
+TrackWidthHistory 170
 TrackClearence 60
 ZoneClearence 200
 DrawSegmWidth 150
@@ -638,7 +639,7 @@ De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TRACK
 Po 0 14236 26250 14236 20414 120 -1
-De 0 0 2 0 C00
+De 0 0 2 0 800
 Po 0 17560 17000 17092 17000 120 -1
 De 15 0 2 0 400
 Po 0 17770 17210 17560 17000 120 -1
@@ -654,7 +655,7 @@ De 0 0 2 0 0
 Po 0 16170 18480 17180 18480 120 -1
 De 0 0 2 0 0
 Po 0 14236 20414 16170 18480 120 -1
-De 0 0 2 0 800
+De 0 0 2 0 0
 $EndTRACK
 $ZONE
 Po 0 10275 42195 18197 42195 100 -1

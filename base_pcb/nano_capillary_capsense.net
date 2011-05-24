@@ -1,385 +1,371 @@
-# EESchema Netlist Version 1.1 created  Wed 18 May 2011 02:02:53 PM PDT
+# EESchema Netlist Version 1.1 created  Mon 23 May 2011 05:15:07 PM PDT
 (
- ( /4DB350D6 SM0603 C1 10uF
-  ( 1 /5V )
-  ( 2 /GND )
+ ( /4DD40A86 $noname  P31 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB20407 SM0603 C2 0.1uF
-  ( 1 /5V )
-  ( 2 /GND )
+ ( /4DD40A84 $noname  P30 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB35129 SM0603 C3 0.1uF
-  ( 1 N-000005 )
-  ( 2 /GND )
+ ( /4DD40A83 $noname  P29 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB35136 SM0603 C4 0.1uF
-  ( 1 N-000005 )
-  ( 2 /GND )
+ ( /4DD40A81 $noname  P28 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB35135 SM0603 C5 0.1uF
-  ( 1 N-000005 )
-  ( 2 /GND )
+ ( /4DD40A7F $noname  P27 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB350E8 SM0603 C6 10uF
-  ( 1 /5V )
-  ( 2 /GND )
+ ( /4DD40A7D $noname  P26 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB20405 SM0603 C7 0.1uF
-  ( 1 /5V )
-  ( 2 /GND )
+ ( /4DD40A7C $noname  P25 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB1FAF9 SM0805 D1 LED
-  ( 1 N-000010 )
-  ( 2 /GND )
+ ( /4DD40A79 $noname  P24 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /4DB22201 SM0805 D2 LED
-  ( 1 N-000021 )
-  ( 2 /GND )
+ ( /4DD322E4 $noname  P5 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 /5V )
+  (    3 /CS )
+  (    4 /SCK )
+  (    5 /MISO )
+  (    6 /MOSI )
  )
- ( /4DB222AC SM0805 D3 LED
-  ( 1 N-000020 )
-  ( 2 /GND )
+ ( /4DD2EE51 $noname  P23 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /VEXT )
+  (    2 /INT )
+  (    3 /HW_SCL )
+  (    4 GND )
+  (    5 /HW_SDA )
+  (    6 ? )
  )
- ( /4DB22349 PIN_ARRAY_2X2 P1 CONN_2X2
-  ( 1 /5V )
-  ( 2 N-000019 )
-  ( 3 ? )
-  ( 4 N-000019 )
+ ( /4DD2CA46 $noname  P20 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DB1E67D DCJACK_2PIN P2 CONN_2
-  ( 1 /VEXT )
-  ( 2 /GND )
+ ( /4DD2CA44 $noname  P19 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DB23FF4 PIN_ARRAY_5x1 P3 CONN_5
-  ( 1 /GND )
-  ( 2 /A0 )
-  ( 3 /A1 )
-  ( 4 /A2 )
-  ( 5 /A3 )
+ ( /4DD2CA42 $noname  P21 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DB2066A PIN_ARRAY_2X2 P4 CONN_2X2
-  ( 1 /RST )
-  ( 2 N-000005 )
-  ( 3 ? )
-  ( 4 N-000005 )
+ ( /4DD2CA41 $noname  P22 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD322E4 PIN_ARRAY-6X1 P5 CONN_6
-  ( 1 /GND )
-  ( 2 /5V )
-  ( 3 /CS )
-  ( 4 /SCK )
-  ( 5 /MISO )
-  ( 6 /MOSI )
+ ( /4DD2CA3F $noname  P18 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DBB6DDE HEADER_RT_3X2 P6 CONN_3X2
-  ( 1 /VEXT )
-  ( 2 /INT )
-  ( 3 /HW_SCL )
-  ( 4 /GND )
-  ( 5 /HW_SDA )
-  ( 6 ? )
+ ( /4DD2CA3D $noname  P16 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C19A PIN_ARRAY-6X1 P7 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2CA32 $noname  P17 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C07D PIN_ARRAY-6X1 P8 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 N-000006 )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2CA30 $noname  P15 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C19D PIN_ARRAY-6X1 P9 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C26D $noname  P12 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 N-000011 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C121 PIN_ARRAY-6X1 P10 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 N-000030 )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C26B $noname  P14 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 N-000031 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C26A PIN_ARRAY-6X1 P11 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C26A $noname  P11 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C26D PIN_ARRAY-6X1 P12 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 N-000011 )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C268 $noname  P13 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C268 PIN_ARRAY-6X1 P13 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C19D $noname  P9 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2C26B PIN_ARRAY-6X1 P14 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 N-000031 )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C19A $noname  P7 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2CA30 PIN_ARRAY-6X1 P15 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C121 $noname  P10 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 N-000030 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2CA3D PIN_ARRAY-6X1 P16 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DD2C07D $noname  P8 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 GND )
+  (    3 N-000006 )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4DD2CA32 PIN_ARRAY-6X1 P17 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DBB6DDE $noname  P6 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /VEXT )
+  (    2 /INT )
+  (    3 /HW_SCL )
+  (    4 GND )
+  (    5 /HW_SDA )
+  (    6 ? )
  )
- ( /4DD2CA3F PIN_ARRAY-6X1 P18 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DB35136 $noname  C4 0.1uF {Lib=C}
+  (    1 N-000005 )
+  (    2 GND )
  )
- ( /4DD2CA44 PIN_ARRAY-6X1 P19 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DB35135 $noname  C5 0.1uF {Lib=C}
+  (    1 N-000005 )
+  (    2 GND )
  )
- ( /4DD2CA46 PIN_ARRAY-6X1 P20 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DB35129 $noname  C3 0.1uF {Lib=C}
+  (    1 N-000005 )
+  (    2 GND )
  )
- ( /4DD2CA42 PIN_ARRAY-6X1 P21 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DB350E8 $noname  C6 10uF {Lib=CP1}
+  (    1 /5V )
+  (    2 GND )
  )
- ( /4DD2CA41 PIN_ARRAY-6X1 P22 CONN_6
-  ( 1 /GND )
-  ( 2 /GND )
-  ( 3 /GND )
-  ( 4 /GND )
-  ( 5 /GND )
-  ( 6 /GND )
+ ( /4DB350D6 $noname  C1 10uF {Lib=CP1}
+  (    1 /5V )
+  (    2 GND )
  )
- ( /4DD2EE51 HEADER_RT_3X2 P23 CONN_3X2
-  ( 1 /VEXT )
-  ( 2 /INT )
-  ( 3 /HW_SCL )
-  ( 4 /GND )
-  ( 5 /HW_SDA )
-  ( 6 ? )
+ ( /4DB23FF4 $noname  P3 CONN_5 {Lib=CONN_5}
+  (    1 GND )
+  (    2 /A0 )
+  (    3 /A1 )
+  (    4 /A2 )
+  (    5 /A3 )
  )
- ( /4DD40A79 MOUNT_HOLE_4_40_GND P24 CONN_1
-  ( 1 /GND )
+ ( /4DB23E28 $noname  S4 CAP_PLATE_3 {Lib=CAP_PLATE}
+  (    1 N-000025 )
  )
- ( /4DD40A7C MOUNT_HOLE_4_40_GND P25 CONN_1
-  ( 1 /GND )
+ ( /4DB23DD3 $noname  S3 CAP_PLATE_2 {Lib=CAP_PLATE}
+  (    1 N-000014 )
  )
- ( /4DD40A7D MOUNT_HOLE_4_40_GND P26 CONN_1
-  ( 1 /GND )
+ ( /4DB23D9E $noname  S2 CAP_PLATE_1 {Lib=CAP_PLATE}
+  (    1 N-000024 )
  )
- ( /4DD40A7F MOUNT_HOLE_4_40_GND P27 CONN_1
-  ( 1 /GND )
+ ( /4DB23D8F $noname  S1 CAP_PLATE_0 {Lib=CAP_PLATE}
+  (    1 N-000015 )
  )
- ( /4DD40A81 MOUNT_HOLE_4_40_GND P28 CONN_1
-  ( 1 /GND )
+ ( /4DB22D61 $noname  R7 4.7k {Lib=R}
+  (    1 /HW_SDA )
+  (    2 GND )
  )
- ( /4DD40A83 MOUNT_HOLE_4_40_GND P29 CONN_1
-  ( 1 /GND )
+ ( /4DB22D5F $noname  R6 4.7k {Lib=R}
+  (    1 /HW_SCL )
+  (    2 GND )
  )
- ( /4DD40A84 MOUNT_HOLE_4_40_GND P30 CONN_1
-  ( 1 /GND )
+ ( /4DB22D5D $noname  R11 4.7k {Lib=R}
+  (    1 /SW_SDA2 )
+  (    2 GND )
  )
- ( /4DD40A86 MOUNT_HOLE_4_40_GND P31 CONN_1
-  ( 1 /GND )
+ ( /4DB22D5B $noname  R10 4.7k {Lib=R}
+  (    1 /SW_SCL2 )
+  (    2 GND )
  )
- ( /4DB22374 SM0603 R1 5K
-  ( 1 N-000019 )
-  ( 2 /GND )
+ ( /4DB22D5A $noname  R9 4.7k {Lib=R}
+  (    1 /SW_SDA1 )
+  (    2 GND )
  )
- ( /4DB2220B SM0603 R2 220
-  ( 1 N-000018 )
-  ( 2 N-000021 )
+ ( /4DB22D58 $noname  R8 4.7k {Lib=R}
+  (    1 /SW_SCL1 )
+  (    2 GND )
  )
- ( /4DB1FB8B SM0603 R3 220
-  ( 1 /VEXT )
-  ( 2 N-000010 )
+ ( /4DB22374 $noname  R1 5.1K {Lib=R}
+  (    1 N-000019 )
+  (    2 GND )
  )
- ( /4DB222AD SM0603 R4 220
-  ( 1 N-000009 )
-  ( 2 N-000020 )
+ ( /4DB22349 $noname  P1 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /5V )
+  (    2 N-000019 )
+  (    3 ? )
+  (    4 N-000019 )
  )
- ( /4DB2068E SM1210 R5 68
-  ( 1 N-000005 )
-  ( 2 /5V )
+ ( /4DB222AD $noname  R4 220 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000020 )
  )
- ( /4DB22D5F SM0603 R6 4.7k
-  ( 1 /HW_SCL )
-  ( 2 /GND )
+ ( /4DB222AC $noname  D3 LED {Lib=LED}
+  (    1 N-000020 )
+  (    2 GND )
  )
- ( /4DB22D61 SM0603 R7 4.7k
-  ( 1 /HW_SDA )
-  ( 2 /GND )
+ ( /4DB2220B $noname  R2 220 {Lib=R}
+  (    1 N-000018 )
+  (    2 N-000021 )
  )
- ( /4DB22D58 SM0603 R8 4.7k
-  ( 1 /SW_SCL1 )
-  ( 2 /GND )
+ ( /4DB22201 $noname  D2 LED {Lib=LED}
+  (    1 N-000021 )
+  (    2 GND )
  )
- ( /4DB22D5A SM0603 R9 4.7k
-  ( 1 /SW_SDA1 )
-  ( 2 /GND )
+ ( /4DB2068E $noname  R5 68 {Lib=R}
+  (    1 N-000005 )
+  (    2 /5V )
  )
- ( /4DB22D5B SM0603 R10 4.7k
-  ( 1 /SW_SCL2 )
-  ( 2 /GND )
+ ( /4DB2066A $noname  P4 CONN_2X2 {Lib=CONN_2X2}
+  (    1 /RST )
+  (    2 N-000005 )
+  (    3 ? )
+  (    4 N-000005 )
  )
- ( /4DB22D5D SM0603 R11 4.7k
-  ( 1 /SW_SDA2 )
-  ( 2 /GND )
+ ( /4DB20407 $noname  C2 0.1uF {Lib=C}
+  (    1 /5V )
+  (    2 GND )
  )
- ( /4DB23D8F CAP_PLATE S1 CAP_PLATE_0
-  ( 1 N-000015 )
+ ( /4DB20405 $noname  C7 0.1uF {Lib=C}
+  (    1 /5V )
+  (    2 GND )
  )
- ( /4DB23D9E CAP_PLATE S2 CAP_PLATE_1
-  ( 1 N-000024 )
+ ( /4DB1FB8B $noname  R3 220 {Lib=R}
+  (    1 /VEXT )
+  (    2 N-000010 )
  )
- ( /4DB23DD3 CAP_PLATE S3 CAP_PLATE_2
-  ( 1 N-000014 )
+ ( /4DB1FAF9 $noname  D1 LED {Lib=LED}
+  (    1 N-000010 )
+  (    2 GND )
  )
- ( /4DB23E28 CAP_PLATE S4 CAP_PLATE_3
-  ( 1 N-000025 )
+ ( /4DB1E67D $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 /VEXT )
+  (    2 GND )
  )
- ( /4DB1E364 TSSOP-16 U1 AD7746
-  ( 1 /SW_SCL1 )
-  ( 2 ? )
-  ( 3 N-000006 )
-  ( 4 N-000030 )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 N-000015 )
-  ( 9 N-000024 )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 /GND )
-  ( 14 /5V )
-  ( 15 ? )
-  ( 16 /SW_SDA1 )
+ ( /4DB1E364 $noname  U1 AD7746 {Lib=AD7746}
+  (    1 /SW_SCL1 )
+  (    2 ? )
+  (    3 N-000006 )
+  (    4 N-000030 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 N-000015 )
+  (    9 N-000024 )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 GND )
+  (   14 /5V )
+  (   15 ? )
+  (   16 /SW_SDA1 )
  )
- ( /4DB1DF26 arduino_nano U2 ARDUINO_NANO
-  ( 1 ? )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 /GND )
-  ( 5 N-000019 )
-  ( 6 /INT )
-  ( 7 /SW_SCL1 )
-  ( 8 /SW_SDA1 )
-  ( 9 /SW_SCL2 )
-  ( 10 /SW_SDA2 )
-  ( 11 N-000018 )
-  ( 12 N-000009 )
-  ( 13 /CS )
-  ( 14 /MOSI )
-  ( 15 /MISO )
-  ( 16 /SCK )
-  ( 17 ? )
-  ( 18 ? )
-  ( 19 /A0 )
-  ( 20 /A1 )
-  ( 21 /A2 )
-  ( 22 /A3 )
-  ( 23 /HW_SDA )
-  ( 24 /HW_SCL )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 /5V )
-  ( 28 /RST )
-  ( 29 /GND )
-  ( 30 /VEXT )
+ ( /4DB1E361 $noname  U3 AD7746 {Lib=AD7746}
+  (    1 /SW_SCL2 )
+  (    2 ? )
+  (    3 N-000011 )
+  (    4 N-000031 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 N-000014 )
+  (    9 N-000025 )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 GND )
+  (   14 /5V )
+  (   15 ? )
+  (   16 /SW_SDA2 )
  )
- ( /4DB1E361 TSSOP-16 U3 AD7746
-  ( 1 /SW_SCL2 )
-  ( 2 ? )
-  ( 3 N-000011 )
-  ( 4 N-000031 )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 N-000014 )
-  ( 9 N-000025 )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 /GND )
-  ( 14 /5V )
-  ( 15 ? )
-  ( 16 /SW_SDA2 )
+ ( /4DB1DF26 $noname  U2 ARDUINO_NANO {Lib=ARDUINO_NANO}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 GND )
+  (    5 N-000019 )
+  (    6 /INT )
+  (    7 /SW_SCL1 )
+  (    8 /SW_SDA1 )
+  (    9 /SW_SCL2 )
+  (   10 /SW_SDA2 )
+  (   11 N-000018 )
+  (   12 N-000009 )
+  (   13 /CS )
+  (   14 /MOSI )
+  (   15 /MISO )
+  (   16 /SCK )
+  (   17 ? )
+  (   18 ? )
+  (   19 /A0 )
+  (   20 /A1 )
+  (   21 /A2 )
+  (   22 /A3 )
+  (   23 /HW_SDA )
+  (   24 /HW_SCL )
+  (   25 ? )
+  (   26 ? )
+  (   27 /5V )
+  (   28 /RST )
+  (   29 GND )
+  (   30 /VEXT )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- CP*
- SM*
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
 $component C4
  SM*
  C?
@@ -390,32 +376,58 @@ $component C5
  C?
  C1-1
 $endlist
-$component C6
- CP*
- SM*
-$endlist
-$component C7
+$component C3
  SM*
  C?
  C1-1
 $endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component C6
+ CP*
+ SM*
 $endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
+$component C1
+ CP*
+ SM*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
 $endlist
 $component D3
  LED-3MM
@@ -426,60 +438,303 @@ $component D3
  LED-1206
  LEDV
 $endlist
-$component R1
- R?
- SM0603
- SM0805
-$endlist
 $component R2
  R?
  SM0603
  SM0805
 $endlist
-$component R3
- R?
- SM0603
- SM0805
-$endlist
-$component R4
- R?
- SM0603
- SM0805
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $component R5
  R?
  SM0603
  SM0805
 $endlist
-$component R6
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
  R?
  SM0603
  SM0805
 $endlist
-$component R7
- R?
- SM0603
- SM0805
-$endlist
-$component R8
- R?
- SM0603
- SM0805
-$endlist
-$component R9
- R?
- SM0603
- SM0805
-$endlist
-$component R10
- R?
- SM0603
- SM0805
-$endlist
-$component R11
- R?
- SM0603
- SM0805
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ P31 1
+ P30 1
+ P29 1
+ P28 1
+ P27 1
+ P26 1
+ P25 1
+ P24 1
+ P5 1
+ P23 4
+ P20 6
+ P20 5
+ P20 4
+ P20 3
+ P20 2
+ P20 1
+ P19 6
+ P19 5
+ P19 4
+ P19 3
+ P19 2
+ P19 1
+ P21 6
+ P21 5
+ P21 4
+ P21 3
+ P21 2
+ P21 1
+ P22 6
+ P22 5
+ P22 4
+ P22 3
+ P22 2
+ P22 1
+ P18 6
+ P18 5
+ P18 4
+ P18 3
+ P18 2
+ P18 1
+ P16 6
+ P16 5
+ P16 4
+ P16 3
+ P16 2
+ P16 1
+ P17 6
+ P17 5
+ P17 4
+ P17 3
+ P17 2
+ P17 1
+ P15 6
+ P15 5
+ P15 4
+ P15 3
+ P15 2
+ P15 1
+ P12 6
+ P12 5
+ P12 4
+ P12 2
+ P12 1
+ P14 6
+ P14 5
+ P14 4
+ P14 2
+ P14 1
+ P11 6
+ P11 5
+ P11 4
+ P11 3
+ P11 2
+ P11 1
+ P13 6
+ P13 5
+ P13 4
+ P13 3
+ P13 2
+ P13 1
+ P9 6
+ P9 5
+ P9 4
+ P9 3
+ P9 2
+ P9 1
+ P7 6
+ P7 5
+ P7 4
+ P7 3
+ P7 2
+ P7 1
+ P10 6
+ P10 5
+ P10 4
+ P10 2
+ P10 1
+ P8 6
+ P8 5
+ P8 4
+ P8 2
+ P8 1
+ P6 4
+ C4 2
+ C5 2
+ C3 2
+ C6 2
+ C1 2
+ P3 1
+ R7 2
+ R6 2
+ R11 2
+ R10 2
+ R9 2
+ R8 2
+ R1 2
+ D3 2
+ D2 2
+ C2 2
+ C7 2
+ D1 2
+ P2 2
+ U1 13
+ U3 13
+ U2 29
+ U2 4
+Net 2 "/5V" "5V"
+ P5 2
+ C6 1
+ C1 1
+ P1 1
+ R5 2
+ C2 1
+ C7 1
+ U1 14
+ U3 14
+ U2 27
+Net 3 "/HW_SDA" "HW_SDA"
+ P23 5
+ P6 5
+ R7 1
+ U2 23
+Net 4 "/VEXT" "VEXT"
+ P23 1
+ P6 1
+ R3 1
+ P2 1
+ U2 30
+Net 5 "" ""
+ C4 1
+ C5 1
+ C3 1
+ R5 1
+ P4 4
+ P4 2
+Net 6 "" ""
+ P8 3
+ U1 3
+Net 7 "/MISO" "MISO"
+ P5 5
+ U2 15
+Net 8 "/CS" "CS"
+ P5 3
+ U2 13
+Net 9 "" ""
+ R4 1
+ U2 12
+Net 10 "" ""
+ R3 2
+ D1 1
+Net 11 "" ""
+ P12 3
+ U3 3
+Net 12 "/A0" "A0"
+ P3 2
+ U2 19
+Net 13 "/A2" "A2"
+ P3 4
+ U2 21
+Net 14 "" ""
+ S3 1
+ U3 8
+Net 15 "" ""
+ S1 1
+ U1 8
+Net 16 "/SW_SDA2" "SW_SDA2"
+ R11 1
+ U3 16
+ U2 10
+Net 17 "/SW_SDA1" "SW_SDA1"
+ R9 1
+ U1 16
+ U2 8
+Net 18 "" ""
+ R2 1
+ U2 11
+Net 19 "" ""
+ R1 1
+ P1 4
+ P1 2
+ U2 5
+Net 20 "" ""
+ R4 2
+ D3 1
+Net 21 "" ""
+ R2 2
+ D2 1
+Net 22 "/SW_SCL1" "SW_SCL1"
+ R8 1
+ U1 1
+ U2 7
+Net 23 "/SW_SCL2" "SW_SCL2"
+ R10 1
+ U3 1
+ U2 9
+Net 24 "" ""
+ S2 1
+ U1 9
+Net 25 "" ""
+ S4 1
+ U3 9
+Net 26 "/A3" "A3"
+ P3 5
+ U2 22
+Net 27 "/A1" "A1"
+ P3 3
+ U2 20
+Net 28 "/SCK" "SCK"
+ P5 4
+ U2 16
+Net 29 "/MOSI" "MOSI"
+ P5 6
+ U2 14
+Net 30 "" ""
+ P10 3
+ U1 4
+Net 31 "" ""
+ P14 3
+ U3 4
+Net 32 "/HW_SCL" "HW_SCL"
+ P23 3
+ P6 3
+ R6 1
+ U2 24
+Net 33 "/INT" "INT"
+ P23 2
+ P6 2
+ U2 6
+Net 34 "/RST" "RST"
+ P4 1
+ U2 28
+}
+#End
