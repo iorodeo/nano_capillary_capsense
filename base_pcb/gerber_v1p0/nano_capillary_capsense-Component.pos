@@ -1,4 +1,4 @@
-### Module positions - created on Fri 20 May 2011 01:46:31 PM PDT ###
+### Module positions - created on Wed 25 May 2011 01:45:05 PM PDT ###
 ### Printed by PcbNew version PCBnew (20090216-final)
 ## Unit = inches, Angle = deg.
 ## Side : Component
@@ -13,7 +13,7 @@ C7       0.1uF                7.5450    -1.6900     270.0    Component
 D1       LED                  0.8420    -2.9260      90.0    Component
 D2       LED                  0.9670    -2.9260      90.0    Component
 D3       LED                  1.0920    -2.9260      90.0    Component
-R1       5K                   0.5350    -2.4600       0.0    Component
+R1       5.1K                 0.5350    -2.4600       0.0    Component
 R2       220                  0.9670    -2.7410      90.0    Component
 R3       220                  0.8420    -2.7410      90.0    Component
 R4       220                  1.0920    -2.7410      90.0    Component
@@ -24,4 +24,6 @@ R8       4.7k                 2.3800    -2.0650       0.0    Component
 R9       4.7k                 2.3800    -2.1700       0.0    Component
 R10      4.7k                 2.3800    -2.2750       0.0    Component
 R11      4.7k                 2.3800    -2.3750       0.0    Component
+U1       AD7746               4.5000    -1.7100     270.0    Component
+U3       AD7746               7.3000    -1.7100     270.0    Component
 ## End

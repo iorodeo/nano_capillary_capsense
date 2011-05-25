@@ -1,0 +1,32 @@
+Drill report for /home/wbd/work/iorodeo/products/nano_capillary_capsense/nano_capillary_capsense/base_pcb/nano_capillary_capsense.brd
+Created on Wed 25 May 2011 01:44:53 PM PDT
+Selected Drill Unit: Imperial (")
+
+Drill report for through holes :
+T1  0.025"  0.64mm  (16 holes)
+T2  0.039"  0.99mm  (30 holes)
+T3  0.040"  1.02mm  (127 holes)
+T4  0.102"  2.60mm  (1 hole)
+T5  0.118"  3.00mm  (1 hole)
+T6  0.120"  3.05mm  (12 holes)
+
+total holes count 187
+
+
+Drill report for buried and blind vias :
+
+Drill report for holes from layer Copper to layer Inner_L1
+
+total holes count 0
+
+
+Drill report for holes from layer Inner_L1 to layer Inner_L2
+
+total holes count 0
+
+
+Drill report for holes from layer Inner_L2 to layer Component
+
+total holes count 0
+
+

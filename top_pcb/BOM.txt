@@ -1,0 +1,3 @@
+Item             Description                               Vendor
+------------------------------------------------------------------------------
+P1,P2,P4,P5     female header, SMT, pitch 0.1"            Digikey  3M9560CT-ND
